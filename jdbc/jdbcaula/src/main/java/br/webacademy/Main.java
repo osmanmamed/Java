@@ -52,7 +52,7 @@ public class Main {
 
             // inserindo produto na colonua produto
 
-            var sql = "insert into produto (nome, quantidade, valor) values ('Macarao', 1, 3.5)";
+            var sql = "insert into produto (nome, quantidade, valor) values ('feijão', 1, 3.5)";
             try(Statement stmt = connection.createStatement()) {
                 stmt.executeUpdate(sql);
             }
