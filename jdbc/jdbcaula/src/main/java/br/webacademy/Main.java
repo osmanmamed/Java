@@ -1,4 +1,4 @@
-package br.com.webacademy;
+package br.webacademy;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement; // Importação correta para Statement SQL
